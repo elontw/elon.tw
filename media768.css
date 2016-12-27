@@ -1,0 +1,29 @@
+h1 {
+    font-size: 1.5em;
+}
+.company {
+    padding: 150px 0;
+}
+
+.item {
+    padding: 1em 20%;
+}
+
+.contact {
+    margin: 0 auto;
+}
+.call {
+    padding: 2em;
+    background: #8cd6e8;
+}
+
+.about {
+    padding: 1em 15%;
+}
+
+.phone,
+.address {
+    display: block;
+    text-align: center;
+    padding: 0;
+}

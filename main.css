@@ -1,0 +1,143 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css); /*思源黑*/
+
+body {
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #222;
+    background-image: url(picture/city.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/***general***/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h1 {
+    color: #111;
+}
+
+a,
+a:link,
+a:visited {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8cd6e8;
+}
+
+/***company***/
+.company {
+    padding: 12em 1em 17em;
+    text-align: center;
+}
+
+.company ul {
+    list-style: none;
+    padding: 0;
+}
+
+.company ul li {
+    display: inline;
+}
+
+.company li {
+    padding: 5px;
+}
+
+.companycall div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/***content***/
+.content {
+    text-align: center;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content {
+    background: #fafafa;
+}
+
+.h-line {
+    margin: 1em auto;
+    background: #e1e1e1;
+    padding: 1px;
+    max-width: 52em;
+}
+
+/***service**/
+.section {
+    padding: 3em 0 0.1em;
+}
+
+.page {
+    padding: 0;
+}
+
+.item {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 6%;
+    margin: 6px;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+}
+
+/***contact***/
+.contact {
+    margin: 6em auto 0;
+}
+
+.call {
+    color: #222;
+    background-color: #ffffff;
+    padding: 3em 1em;
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 5px;
+}
+
+.call:hover,
+.call h2:hover {
+    color: #222;
+    background-color: #8cd6e8;
+}
+
+.call li {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.about {
+    padding: 6em 0;
+}
+
+.about ul li {
+    padding: 0.2em;
+}
+
+.phone,
+.address {
+    margin: 0 2em;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.9em;
+}
